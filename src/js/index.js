@@ -11,7 +11,7 @@ function SimpleCounter(props) {
 	return (
 		<div className="bigCounter">
 			<div className="calander">
-				<i className="fa-regular fa-clock"></i>
+				<i class="fa-solid fa-clock"></i>
 			</div>
 			<div className="four">{props.digitFour}</div>
 			<div className="three">{props.digitThree}</div>
